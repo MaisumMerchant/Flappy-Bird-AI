@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'FlappyFont';
+    src: url('../assets/flappy-bird-font.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+#gameCanvas {
+    border: 3px solid black;
+}
+
+#networkCanvas {
+    border: 3px solid black;
+}
